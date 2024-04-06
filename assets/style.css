@@ -26,7 +26,7 @@ header {
 
 .header nav {
     padding-top: 15px;
-    margin-right: 20px;
+    margin-right: 90px;
     float: right;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
@@ -45,3 +45,37 @@ a {
     color: #53EFE9;
     text-decoration: none;
 }
+
+.greeting-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.greeting-section img {
+    max-height: 250px;
+    max-width: 200px;
+    border-radius: 5%;
+    filter:drop-shadow(10px 10px 10px #53EFE9);
+}
+
+.photo {
+    float: right;
+    margin-left: 25px;
+}
+
+.greeting-section h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.ak {
+    font-style: italic;
+    color: #53EFE9;
+    font-size: 45px;
+}
+
