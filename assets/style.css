@@ -5,12 +5,11 @@
     margin: 0;
 }
 
-/*aqua #53EFE9 blue #07131e*/
-
 body {
     background-color:#07131e;
 }
 
+/*css for header*/
 header {
     padding: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -46,6 +45,7 @@ a {
     text-decoration: none;
 }
 
+/*css for greeting section*/
 .greeting-section {
     display: flex;
     flex-wrap: wrap;
@@ -66,6 +66,7 @@ a {
 .photo {
     float: right;
     margin-left: 25px;
+    
 }
 
 .greeting-section h2 {
@@ -78,4 +79,31 @@ a {
     color: #53EFE9;
     font-size: 45px;
 }
+
+
+
+
+
+/*css for footer*/
+footer {
+    margin: 0 auto;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding-top: 25px; 
+    padding-bottom: 25px;  
+    background-color: #53EFE9;
+}
+
+.panel-footer ul li {
+    float: left;
+    list-style: none;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 17px;
+    color:#07131e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: none;    
+}
+
 
