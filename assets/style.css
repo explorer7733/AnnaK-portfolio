@@ -80,8 +80,49 @@ a {
     font-size: 45px;
 }
 
+/*css for box (about me & experience)*/
 
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    background-color: #07131e;
+}
 
+.box {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #53EFE9;
+    box-shadow: 10px 10px 5px #53EFE9;
+    flex: 0 0 300px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.box h2 {
+    color: #53EFE9;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box p {
+    text-align: left;
+    color: white;
+}
+
+.box h3 {
+    color:white;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(https://unsplash.com/photos/chart-histogram-WzALbxevHpQ);
+    background-repeat: no-repeat;
+}
+
+.box img {
+    width: 100%;
+    margin-top: 10px;
+}
 
 
 /*css for footer*/
