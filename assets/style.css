@@ -45,6 +45,10 @@ a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: white;
+}
+
 /*css for greeting section*/
 .greeting-section {
     display: flex;
@@ -124,6 +128,9 @@ a {
     margin-top: 10px;
 }
 
+.box a {
+    color:white;
+}
 
 /*css for footer*/
 footer {
@@ -145,6 +152,16 @@ footer {
     color:#07131e;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     list-style-type: none;    
+}
+
+footer h3 {
+    color:#07131e;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.panel-footer ul li a {
+    color: #07131e;
 }
 
 
