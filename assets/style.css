@@ -5,29 +5,40 @@
     margin: 0;
 }
 
+/*CSS variables*/
+:root {
+    --dark-blue: #07131e;
+    --aqua:#53EFE9;
+    --white: white;
+    --cambria: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --italic: italic;
+}
+
 body {
-    background-color:#07131e;
+    background-color: var(--dark-blue);
 }
 
 /*css for header*/
 header {
     padding: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #53EFE9;
+    font-family: var(--cambria);
+    color: var(--aqua);
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 30px;
-    font-style: italic;
-    color: #53EFE9;
+    font-style: var(--italic);
+    color: var(--aqua);
 }
 
 .header nav {
     padding-top: 15px;
     margin-right: 90px;
     float: right;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: var(--cambria);
     font-size: 17px;
 }
 
@@ -41,12 +52,12 @@ header {
 }
 
 a {
-    color: #53EFE9;
+    color: var(--aqua);
     text-decoration: none;
 }
 
 nav a:hover {
-    color: white;
+    color: var(--white);
 }
 
 /*css for greeting section*/
@@ -61,10 +72,10 @@ nav a:hover {
 }
 
 .greeting-section img {
-    max-height: 250px;
-    max-width: 200px;
+    max-height: 350px;
+    max-width: 300px;
     border-radius: 5%;
-    filter:drop-shadow(10px 10px 10px #53EFE9);
+    filter:drop-shadow(10px 10px 10px var(--aqua));
 }
 
 .photo {
@@ -75,12 +86,12 @@ nav a:hover {
 
 .greeting-section h2 {
     font-size: 30px;
-    color: white;
+    color: var(--white);
 }
 
 .ak {
-    font-style: italic;
-    color: #53EFE9;
+    font-style: var(--italic);
+    color: var(--aqua);
     font-size: 45px;
 }
 
@@ -90,35 +101,36 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: start;
-    background-color: #07131e;
+    align-items: flex-start;
+    background-color: var(--dark-blue);
+    margin-bottom: 30px;
 }
 
 .box {
     border-style: solid;
     border-width: 1px;
-    border-color: #53EFE9;
-    box-shadow: 10px 10px 5px #53EFE9;
+    border-color: var(--aqua);
+    box-shadow: 10px 10px 5px var(--aqua);
     flex: 0 0 300px;
     margin: 20px;
     padding: 10px;
 }
 
 .box h2 {
-    color: #53EFE9;
+    color: var(--aqua);
     font-size: 17px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: var(--cambria);
 }
 
 .box p {
     text-align: left;
-    color: white;
+    color: var(--white);
 }
 
 .box h3 {
-    color:white;
+    color: var(--white);
     font-size: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: var(--cambria);
     background-image: url(https://unsplash.com/photos/chart-histogram-WzALbxevHpQ);
     background-repeat: no-repeat;
 }
@@ -129,7 +141,7 @@ nav a:hover {
 }
 
 .box a {
-    color:white;
+    color: var(--white);
 }
 
 /*css for footer*/
@@ -139,8 +151,8 @@ footer {
     position: relative;
     width: 100%;
     padding-top: 25px; 
-    padding-bottom: 25px;  
-    background-color: #53EFE9;
+    padding-bottom: 50px;  
+    background-color: var(--aqua);
 }
 
 .panel-footer ul li {
@@ -149,19 +161,19 @@ footer {
     margin-right: 50px;
     margin-left: 50px;
     font-size: 17px;
-    color:#07131e;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--dark-blue);
+    font-family: var(--cambria);
     list-style-type: none;    
 }
 
 footer h3 {
-    color:#07131e;
+    color: var(--dark-blue);
     margin-left: 50px;
     margin-bottom: 20px;
 }
 
 .panel-footer ul li a {
-    color: #07131e;
+    color: var(--dark-blue);
 }
 
 
