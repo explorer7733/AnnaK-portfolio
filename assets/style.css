@@ -1,4 +1,4 @@
-/*check the universal selector parameters*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -108,7 +108,7 @@ nav a:hover {
 
 .box {
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color: var(--aqua);
     box-shadow: 10px 10px 5px var(--aqua);
     flex: 0 0 300px;
@@ -120,6 +120,7 @@ nav a:hover {
     color: var(--aqua);
     font-size: 17px;
     font-family: var(--cambria);
+    margin-bottom: 15px;
 }
 
 .box p {
@@ -176,4 +177,13 @@ footer h3 {
     color: var(--dark-blue);
 }
 
+/*Responsive design*/
+@media screen and (max-width: 768px) {
+    header,
+    nav {
+        flex-direction: column;
+    }
+
+}
+    
 
