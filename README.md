@@ -21,7 +21,6 @@ To review "AnnaK portfolio", you can click in the deployed link and the screensh
 
 [deployed link]()
 
-
 ## Screenshots
 
 ![annak portfolio screeshot](./Images/AK_portfolio_screenshot.png)
