@@ -19,7 +19,7 @@ To review "AnnaK portfolio", you can click in the deployed link and the screensh
 
 ## Deployed link
 
-[deployed link]()
+[deployed link](https://explorer7733.github.io/AnnaK-portfolio/)
 
 ## Screenshots
 
